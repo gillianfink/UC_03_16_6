@@ -66,6 +66,9 @@ body {
     transition: all 300ms ease;
 }
 
+#madisontxt {
+   color: #140b06; 
+}
 
 
 #allisontxt {
@@ -339,6 +342,17 @@ button {
     text-decoration: line-through;
 }*/
 
+.linkout2 {
+    color: #140b06;
+    font-family: FoundersGroteskMonoMedium;
+    margin: auto;
+    text-decoration: underline;
+    position: absolute;
+    width: 80px;
+    left: 50%; 
+    -webkit-transform: translate(-50%, 0);
+    top: 103vw;
+}
 
 .content {
   display: none;
@@ -353,6 +367,7 @@ button {
     margin-left: 14vw;
     margin-bottom: -25px;
     margin-top: 15px;
+    height: 105vw;
 }
 
 #allisonimgmobile {
