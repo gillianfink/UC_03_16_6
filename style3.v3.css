@@ -103,8 +103,8 @@ body {
     background-size: 100%;
 }
 
-#zoeimg {
-    background: url("images2/zoe-1.png") no-repeat;
+#toriimg {
+    background: url("images2/tori-1.png") no-repeat;
     z-index: 10;
     display: none;
     position: fixed;
@@ -113,8 +113,8 @@ body {
     background-size: 100%;
 }
 
-#toriimg {
-    background: url("images2/tori-1.png") no-repeat;
+#zoeimg {
+    background: url("images2/zoe-1.png") no-repeat;
     z-index: 10;
     display: none;
     position: fixed;
@@ -377,16 +377,17 @@ button {
     margin-bottom: 20px;
 }
 
-#zoeimgmobile {
-    background: url("images2/zoe-1.png") no-repeat;
+
+#toriimgmobile {
+    background: url("images2/tori-1.png") no-repeat;
     background-size: 100%;
     margin-left: 15vw;
     margin-bottom: -25px;
     margin-top: 15px;
 }
 
-#toriimgmobile {
-    background: url("images2/tori-1.png") no-repeat;
+#zoeimgmobile {
+    background: url("images2/zoe-1.png") no-repeat;
     background-size: 100%;
     margin-top: -30px;
     margin-bottom: 20px;
