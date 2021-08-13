@@ -391,7 +391,7 @@ ul.smalllist {
     background-size: 100%;
 }
 
-#lemonperfectimg1 {
+/*#lemonperfectimg1 {
     background: url("images2/lemonperfect1-1.png") no-repeat;
     z-index: 10;
     display: none;
@@ -409,7 +409,7 @@ ul.smalllist {
     bottom: 40vh;
     right: 4vw;
     background-size: 100%;
-}
+}*/
 
 #milkbarimg1 {
     background: url("images2/milkbar1-1.png") no-repeat;
@@ -871,7 +871,7 @@ button {
     height: 81vw;
 }
 
-#lemonperfectimgmobile {
+/*#lemonperfectimgmobile {
     margin-top: -25px;
     margin-bottom: -5px;
     height: 194vw;
@@ -891,7 +891,7 @@ button {
     margin-left: 14.5vw;
     width: 81vw;
     height: 81vw;
-}
+}*/
 
 #smileimgmobile {
     margin-top: -25px;
