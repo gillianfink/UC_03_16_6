@@ -185,6 +185,26 @@ var g= true;
     });
 
 
+   var iii= true;
+    $("#gtgtxt").hover(function(){
+        if (iii==true) {
+          
+            $( "#gtgimg1" ).css("display", "inherit");
+            $( "#gtgimg2" ).css("display", "inherit");
+            
+            iii=false;
+        }
+        else {
+
+            $( "#gtgimg1" ).css("display", "none");
+            $( "#gtgimg2" ).css("display", "none");
+
+            iii=true;
+            
+        }   
+    });
+
+
   var j= true;
     $("#aboutfacetxt").hover(function(){
         if (j==true) {

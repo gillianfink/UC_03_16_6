@@ -292,6 +292,26 @@ ul.smalllist {
     height: 430px;
 }
 
+#gtgimg1 {
+    background: url("images2/gtg.png") no-repeat;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    bottom: 35vh;
+    left: 2vw;
+    background-size: 100%;
+}
+
+#gtgimg2 {
+    background: url("images2/gtg.gif") no-repeat;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    bottom: 42vh;
+    right: 2vw;
+    background-size: 100%;
+}
+
 
 #judyimg1 {
     background: url("images2/judy1-1.png") no-repeat;
