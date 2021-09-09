@@ -646,6 +646,27 @@ for (p = 0; p < coll.length; p++) {
         }   
     });
 
+
+    var eee= true;
+    $("#gtgtxtmobile").click(function(){
+        if (eee==true) {
+          
+            $( "#gtgtxtmobile" ).css("font-style", "italic");
+            $( "#gtgtxtmobile" ).css("text-decoration", "line-through");
+            
+            eee=false;
+        }
+        else {
+
+            $( "#gtgtxtmobile" ).css("font-style", "normal");
+            $( "#gtgtxtmobile" ).css("text-decoration", "none");
+
+            eee=true;
+            
+        }   
+    });
+
+
     var ee= true;
     $("#ladidatxtmobile").click(function(){
         if (ee==true) {
