@@ -738,6 +738,30 @@ button {
     width: 95vw;
 }
 
+
+#gtgimgmobile {
+    margin-top: -25px;
+    margin-bottom: -5px;
+    height: 194vw;
+}
+
+#gtgmobile1 {
+    background: url("images2/gtg.png") no-repeat;
+    background-size: 100%;
+    margin-bottom: 10vw;
+    width: 81vw;
+    height: 81vw;
+}
+
+#gtgmobile2{
+    background: url("images2/gtg.gif") no-repeat;
+    background-size: 100%;
+    margin-left: 14.5vw;
+    width: 81vw;
+    height: 81vw;
+}
+
+
 #judyimgmobile {
     margin-top: -25px;
     margin-bottom: -5px;
