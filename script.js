@@ -113,6 +113,23 @@ var c= true;
         }   
     });
 
+ var eee= true;
+    $("#sesalitxt").hover(function(){
+        if (eee==true) {
+          
+            $( "#sesaliimg" ).css("display", "inherit");
+            
+            eee=false;
+        }
+        else {
+
+            $( "#sesaliimg" ).css("display", "none");
+
+            eee=true;
+            
+        }   
+    });
+
 var f= true;
     $("#gilliantxt").hover(function(){
         if (f==true) {
@@ -148,16 +165,16 @@ var g= true;
     });
 
  var ggg= true;
-    $("#nikoletxt").hover(function(){
+    $("#mariatxt").hover(function(){
         if (ggg==true) {
           
-            $( "#nikoleimg" ).css("display", "inherit");
+            $( "#mariaimg" ).css("display", "inherit");
             
             ggg=false;
         }
         else {
 
-            $( "#nikoleimg" ).css("display", "none");
+            $( "#mariaimg" ).css("display", "none");
 
             ggg=true;
             

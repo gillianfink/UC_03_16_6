@@ -93,8 +93,9 @@ body {
 }
 
 
-#allisonimg {
-    background: url("images2/allison-1.png") no-repeat;
+
+#toriimg {
+    background: url("images2/tori-1.png") no-repeat;
     z-index: 10;
     display: none;
     position: fixed;
@@ -103,32 +104,33 @@ body {
     background-size: 100%;
 }
 
-#toriimg {
-    background: url("images2/tori-1.png") no-repeat;
-    z-index: 10;
-    display: none;
-    position: fixed;
-    bottom: 12vh;
-    right: 7vw;
-    background-size: 100%;
-}
-
 #zoeimg {
     background: url("images2/zoe-1.png") no-repeat;
     z-index: 10;
     display: none;
     position: fixed;
-    bottom: 25vh;
-    left: 7vw;
+    bottom: 35vh;
+    right: 3vw;
     background-size: 100%;
 }
 
-#nikoleimg {
-    background: url("images2/nikole-1.png") no-repeat;
+#mariaimg {
+    background: url("images2/maria-1.png") no-repeat;
     z-index: 10;
     display: none;
     position: fixed;
-    bottom: 35vh;
+    bottom: 42vh;
+    left: 5vw;
+    background-size: 100%;
+}
+
+
+#sesaliimg {
+    background: url("images2/sesali-1.png") no-repeat;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    bottom: 20vh;
     right: 3vw;
     background-size: 100%;
 }
@@ -139,19 +141,21 @@ body {
     z-index: 10;
     display: none;
     position: fixed;
-    bottom: 20vh;
-    right: 3vw;
+    bottom: 30vh;
+    left: 3vw;
     background-size: 100%;
 }
+
 
 #gillianimg {
     background: url("images2/gillian-1.png") no-repeat;
     z-index: 10;
     display: none;
     position: fixed;
-    bottom: 42vh;
-    left: 5vw;
+    bottom: 20vh;
+    right: 3vw;
     background-size: 100%;
+
 }
 
 #hawaimg {
@@ -159,8 +163,8 @@ body {
     z-index: 10;
     display: none;
     position: fixed;
-    bottom: 20vh;
-    left: 7vw;
+    bottom: 30vh;
+    left: 5vw;
     background-size: 100%;
 }
 
@@ -381,20 +385,27 @@ button {
 #toriimgmobile {
     background: url("images2/tori-1.png") no-repeat;
     background-size: 100%;
-    margin-left: 15vw;
-    margin-bottom: -25px;
-    margin-top: 15px;
+    margin-top: -30px;
+    margin-bottom: 20px;
 }
 
 #zoeimgmobile {
     background: url("images2/zoe-1.png") no-repeat;
     background-size: 100%;
+    margin-left: 14vw;
+    margin-bottom: -25px;
+    margin-top: 15px;
+}
+
+#mariaimgmobile {
+    background: url("images2/maria-1.png") no-repeat;
+    background-size: 100%;
     margin-top: -30px;
     margin-bottom: 20px;
 }
 
-#nikoleimgmobile {
-    background: url("images2/nikole-1.png") no-repeat;
+#sesaliimgmobile {
+    background: url("images2/sesali-1.png") no-repeat;
     background-size: 100%;
     margin-left: 14vw;
     margin-bottom: -25px;
@@ -404,16 +415,16 @@ button {
 #graceimgmobile {
     background: url("images2/grace-1.png") no-repeat;
     background-size: 100%;
-    margin-left: 14vw;
-    margin-bottom: -25px;
-    margin-top: 15px;
+    margin-top: -30px;
+    margin-bottom: 20px;
 }
 
 #gillianimgmobile {
     background: url("images2/gillian-1.png") no-repeat;
     background-size: 100%;
-    margin-top: -30px;
-    margin-bottom: 20px;
+    margin-left: 14vw;
+    margin-bottom: -25px;
+    margin-top: 15px;
 }
 
 #hawaimgmobile {
